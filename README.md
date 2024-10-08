@@ -11,7 +11,7 @@ This project parses AWS VPC flow logs and maps each row to a tag based on a look
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/illumio-coding-exercise.git
+git clone https://github.com/EshwarCVS/illumio.coding-exercise.git
 cd illumio-coding-exercise
 
 2. (Optional) Create a virtual environment:
