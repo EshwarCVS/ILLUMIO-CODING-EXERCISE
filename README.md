@@ -27,6 +27,10 @@ python src/flow_log_parser.py <flow_log_file> <lookup_file> <output_file>
 For example:
 python src/flow_log_parser.py tests/sample_flow_log.txt tests/sample_lookup.csv output.csv
 
+Update the 
+- tests/sample_flow_log.txt for adding or updating the logs
+- tests/sample_lookup.csv for updating the look up table or look up csv
+
 ## Running Tests
 
 To run the unit tests:
