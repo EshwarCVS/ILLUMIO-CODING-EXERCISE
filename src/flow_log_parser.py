@@ -43,7 +43,7 @@ def parse_flow_logs(flow_file, lookup_dict):
                     logging.warning(f"Skipping invalid line: {line.strip()}")
                     continue  # Handle invalid format
                 
-                dstport = parts[5]
+                dstport = parts[6]
                 protocol_num = parts[7]
                 protocol = PROTOCOL_MAP.get(protocol_num, 'unknown')  # Get protocol name from the map
             
